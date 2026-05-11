@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lumière Coffee | プレミアムなひとときを</title>
+    <meta name="description" content="こだわりのコーヒーと上質な空間を提供する、大人のためのプレミアムカフェ「Lumière Coffee」。">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Noto+Serif+JP:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="header-container">
+            <a href="#" class="logo">Lumière</a>
+            <nav class="nav" id="nav">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#menu" class="nav-link">Menu</a></li>
+                    <li><a href="#location" class="nav-link">Location</a></li>
+                </ul>
+            </nav>
+            <button class="menu-toggle" id="menu-toggle" aria-label="Toggle Menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-overlay"></div>
+        <div class="hero-content fade-in">
+            <h1 class="hero-title">A Moment of Clarity.</h1>
+            <p class="hero-subtitle">一杯のコーヒーから始まる、上質な時間。</p>
+            <a href="#about" class="btn btn-primary">Discover More</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about section" id="about">
+        <div class="container fade-in-up">
+            <h2 class="section-title">Our Philosophy</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>都会の喧騒を離れ、心を落ち着かせるための空間。<br>Lumière Coffeeは、厳選された最高品質の豆だけを使用し、バリスタが一杯ずつ丁寧に淹れるコーヒーを提供します。</p>
+                    <p>アンティーク家具と温かな照明に包まれた店内で、あなただけの特別なひとときをお過ごしください。</p>
+                </div>
+                <div class="about-image">
+                    <img src="assets/about_image.png" alt="About Lumière Coffee" class="about-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="menu section" id="menu">
+        <div class="container fade-in-up">
+            <h2 class="section-title text-center">Curated Menu</h2>
+            <div class="menu-grid">
+                <div class="menu-card fade-in-up" style="transition-delay: 0.1s;">
+                    <div class="menu-img-wrapper">
+                        <img src="assets/menu_coffee.png" alt="Signature Latte" class="menu-img">
+                    </div>
+                    <div class="menu-info">
+                        <h3 class="menu-name">Signature Latte</h3>
+                        <p class="menu-desc">エスプレッソの深いコクと、きめ細かなスチームミルクが織りなす極上のラテ。</p>
+                        <span class="menu-price">¥750</span>
+                    </div>
+                </div>
+                <div class="menu-card fade-in-up" style="transition-delay: 0.2s;">
+                    <div class="menu-img-wrapper">
+                        <img src="assets/menu_pastry.png" alt="Artisan Pastries" class="menu-img">
+                    </div>
+                    <div class="menu-info">
+                        <h3 class="menu-name">Artisan Pastries</h3>
+                        <p class="menu-desc">バターの香りが広がるクロワッサンと、濃厚なチョコレートケーキ。</p>
+                        <span class="menu-price">¥800 -</span>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-3">
+                <a href="#" class="btn btn-outline">View Full Menu</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="location">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <h2>Lumière</h2>
+                <p>Coffee & Roastery</p>
+            </div>
+            <div class="footer-contact">
+                <h3>Visit Us</h3>
+                <p>東京都渋谷区神宮前X-X-X</p>
+                <p>03-XXXX-XXXX</p>
+            </div>
+            <div class="footer-hours">
+                <h3>Hours</h3>
+                <p>Mon-Fri: 8:00 - 20:00</p>
+                <p>Sat-Sun: 9:00 - 21:00</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Lumière Coffee. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
